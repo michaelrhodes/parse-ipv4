@@ -1,0 +1,27 @@
+{
+  "name": "parse-ipv4",
+  "version": "0.0.0",
+  "description": "A through stream that loosely parses out IPv4 addresses.",
+  "main": "index.js",
+  "directories": {
+    "": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tap": "~0.4.4"
+  },
+  "scripts": {
+    "test": "tap test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/michaelrhodes/parse-ipv4.git"
+  },
+  "keywords": [
+    "ip",
+    "ipv4",
+    "parser"
+  ],
+  "author": "Michael Rhodes",
+  "license": "MIT"
+}
