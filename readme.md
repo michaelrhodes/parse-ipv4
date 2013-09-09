@@ -1,6 +1,8 @@
 # parse-ipv4
 parse-ipv4 is a through stream that loosely parses out IPv4 addresses.
 
+[![Build status](https://travis-ci.org/michaelrhodes/parse-ipv4.png?branch=master)](https://travis-ci.org/michaelrhodes/parse-ipv4)
+
 ## Install
 
 ```
