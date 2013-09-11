@@ -22,4 +22,4 @@ arp.stdout
 ```
 
 ### License
-MIT
+[MIT](http://opensource.org/licenses/MIT)
