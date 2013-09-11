@@ -14,9 +14,8 @@ Find the addresses of other computers on your network
 
 ``` js
 var parseip = require('parse-ipv4')
-var spawn = require('child_process').spawn
+var arp = require('arp-table')()
 
-var arp = spawn('arp', ['-a'])
 arp.stdout
   .pipe(parseip)
   .pipe(process.stdout)
