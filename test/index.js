@@ -1,8 +1,8 @@
-var test = require('tap').test
+var run = require('tap').test
 var fs = require('fs')
 var parseip = require('../')
 
-test('arp output', function (t) {
+run('against arp output', function (test) {
   var actual = ''
   var expected = [
     '192.168.0.1', '192.168.0.6',
@@ -18,7 +18,7 @@ test('arp output', function (t) {
   })
 
   parseip.on('end', function () {
-    t.equal(expected, actual)
-    t.end()
+    test.equal(expected, actual)
+    test.end()
   })
 })
