@@ -1,10 +1,10 @@
 var stream = require('stream')
 
+var pattern = /([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3})/g
 var parseip = new stream.Transform
 
 parseip._transform = function (data, encoding, next) {
-  var pattern = /([0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3})/g
-  var ip 
+  var ip
   while (ip = pattern.exec(data.toString())) {
     this.push(ip[1] + '\n')
   }

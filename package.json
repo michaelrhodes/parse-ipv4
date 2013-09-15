@@ -1,6 +1,6 @@
 {
   "name": "parse-ipv4",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A through stream that loosely parses out IPv4 addresses.",
   "main": "index.js",
   "directories": {
